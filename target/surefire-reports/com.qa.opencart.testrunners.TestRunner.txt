@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.opencart.testrunners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.97 s <<< FAILURE! -- in com.qa.opencart.testrunners.TestRunner
+Login page feature.Login with correct credentials -- Time elapsed: 3.883 s <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.qa.opencart.stepdefinitions.LoginPageSteps.page_title_should_be(LoginPageSteps.java:30)
+	at ✽.page title should be "My Account"(file:///Users/shivan/eclipse-workspace/OpenCartSampleCucumberFrameworkJUnit/./src/test/resources/features/Login.feature:37)
+
